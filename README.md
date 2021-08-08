@@ -1,11 +1,11 @@
 # thinkertoys
-Random cards for creative thinking.
+<h2>Random cards for creative thinking.</h2>
 
 Thinkertoys is a handbook of creative thinking techniques by Michael Michalko, with one of these techniques described in the technique called Soap, Soup, and Sand.  A list of random words are used as random input to spark inspiration by looking at the characteristics of the random word selected, and finding common patterns or how to apply some of these characteristics in the problem you are attempting to solve.
 
 This is a digital version of Soap, Soup, and Sand.
 
-#How to use
+<h1>How to use</h1>
 
 It can be used to provide a different perspective when you feel stuck on any problem / situation.  It can also be used as random input for a more creative story telling (like Story Cubes). 
 
