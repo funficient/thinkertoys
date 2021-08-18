@@ -101,7 +101,12 @@ function getRandom(number) {
     return randomNumber;
 }
 
-document.getElementById("display").innerHTML = '<h3>' + currentCard.name + '</h3><img src="assets/' + currentCard.image + '.jpg" height=500 width=350>';
+document.getElementById("display") = function(){
+    var index = getRandom(34);
+    var currentCard = deck[index];
+    
+    document.getElementById("display").innerHTML = '<h3>' + currentCard.name + '</h3><img src="assets/' + currentCard.image + '.jpg" height=500 width=350>';
+};
 
 document.getElementById("draw").onclick = function(){
     var index = getRandom(34);
