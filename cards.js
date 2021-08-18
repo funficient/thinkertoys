@@ -10,7 +10,9 @@ var deck = [
     new card('Gutter', 'gutter'),    new card('Computer', 'computer'),    new card('Umbrella', 'umbrella'),    new card('Hook', 'hook'),       new card('Meat', 'meat'),
     new card('Cup', 'cup'),    new card('Dog', 'dog'),    new card('Candy', 'candy'),    new card('Paint', 'paint'),    new card('Man', 'man'),
     new card('Water', 'water'),    new card('Bottle', 'bottle'),    new card('Neon', 'neon'),    new card('Light', 'light'),    new card('Bag', 'bag'),
-    new card('Chain', 'chain'),    new card('Insect', 'insect'),    new card('Rose', 'rose'),    new card('Butter', 'butter'),    new card('Nut', 'nut'),
+    new card('Chain', 'chain'),    new card('Insect', 'insect'),    new card('Rose', 'rose'),    new card('Butter', 'butter'),    
+    
+    /*new card('Nut', 'nut'),
     new card('Monkey', 'monkey'),   new card('Fencing', 'fencing'),     new card('Bird', 'bird'),    new card('Sword', 'sword'),    new card('Motor', 'motor'),
     new card('Field', 'field'),        new card('Fly', 'fly'),    new card('Gun', 'gun'),    new card('Stamp', 'stamp'),    new card('Beetle', 'beetle'),
     new card('Sun', 'sun'),    new card('Summer', 'summer'),    new card('Ice', 'ice'),    new card('Dust', 'dust'),    new card('Bible', 'bible'),
