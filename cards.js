@@ -10,9 +10,7 @@ var deck = [
     new card('Gutter', 'gutter'),    new card('Computer', 'computer'),    new card('Umbrella', 'umbrella'),    new card('Hook', 'hook'),       new card('Meat', 'meat'),
     new card('Cup', 'cup'),    new card('Dog', 'dog'),    new card('Candy', 'candy'),    new card('Paint', 'paint'),    new card('Man', 'man'),
     new card('Water', 'water'),    new card('Bottle', 'bottle'),    new card('Neon', 'neon'),    new card('Light', 'light'),    new card('Bag', 'bag'),
-    new card('Chain', 'chain'),    new card('Insect', 'insect'),    new card('Rose', 'rose'),    new card('Butter', 'butter'),    
-    
-    /*new card('Nut', 'nut'),
+    new card('Chain', 'chain'),    new card('Insect', 'insect'),    new card('Rose', 'rose'),    new card('Butter', 'butter'),    new card('Nut', 'nut'),
     new card('Monkey', 'monkey'),   new card('Fencing', 'fencing'),     new card('Bird', 'bird'),    new card('Sword', 'sword'),    new card('Motor', 'motor'),
     new card('Field', 'field'),        new card('Fly', 'fly'),    new card('Gun', 'gun'),    new card('Stamp', 'stamp'),    new card('Beetle', 'beetle'),
     new card('Sun', 'sun'),    new card('Summer', 'summer'),    new card('Ice', 'ice'),    new card('Dust', 'dust'),    new card('Bible', 'bible'),
@@ -20,77 +18,42 @@ var deck = [
 
     new card('Drum', 'drum'),    new card('Fog', 'fog'),    new card('Football', 'football'),    new card('Bridge', 'bridge'),    new card('Pulley', 'pulley'),
     new card('Toe', 'toe'),    new card('Woman', 'woman'),    new card('Plow', 'plow'),    new card('Sunset', 'sunset'),    new card('Gate', 'gate'),
-
     new card('Clock', 'clock'),    new card('Car', 'car'),    new card('Road', 'road'),    new card('Zoo', 'zoo'),    new card('Museum', 'museum'),
     new card('Painting', 'painting'),    new card('Sand', 'sand'),    new card('Menu', 'menu'),    new card('Book', 'book'),    new card('Ashtray', 'ashtray'),
+    new card('Lighter', 'lighter'),    new card('Hip', 'hip'),    new card('Mouse', 'mouse'),    new card('Toilet', 'toilet'),    new card('Closet', 'closet'),
+    new card('Weed', 'weed'),    new card('Seed', 'seed'),    new card('Knot', 'knot'),   new card('Tide', 'tide'),      new card('Shirt', 'shirt'),
+    new card('Pocket', 'pocket'),     new card('Plane', 'plane'),    new card('Pill', 'pill'),   new card('Ticket', 'ticket'),       new card('Hammer', 'hammer'),
+    new card('Circle', 'circle'),   new card('Smoke', 'smoke'),    new card('Sky', 'sky'),     new card('Referee', 'referee'),   new card('Pepper', 'pepper'),
+    new card('Ocean', 'ocean'),    new card('Triangle', 'triangle'),    new card('Octopus', 'octopus'),    new card('Magnet', 'magnet'),    new card('Spaghetti', 'spaghetti'),
+    new card('Milk', 'milk'),    new card('Poster', 'poster'),    new card('Aisle', 'aisle'),    new card('Horse', 'horse'),    new card('Pipe', 'pipe'),
 
-    new card('Lighter', 'lighter'),    new card('Hip', 'hip'),    new card('Mouse', 'mouse'),
-
-
-
-
-    
+    new card('Eye', 'eye'),    new card('Television', 'television'),    new card('Wedding', 'wedding'),    new card('Ring', 'ring'),    new card('Wine', 'wine'),
+    new card('Pig', 'pig'),
+    new card('Coconut', 'coconut'),
 /*
 
-
-    new card('Poster', 'poster'),
-    new card('Aisle', 'aisle'),
-    new card('Milk', 'milk'),
-    new card('Horse', 'horse'),
-
-    new card('Tide', 'tide'),
-    new card('Knot', 'knot'),
-    new card('Seed', 'seed'),
-    
-    new card('Weed', 'weed'),
     new card('Bruise', 'bruise'),
-    new card('Toilet', 'toilet'),
-    new card('Closet', 'closet'),
-    new card('Shirt', 'shirt'),
-
-    new card('Pocket', 'toast'),
-    new card('Pipe', 'toast'),
+    
     new card('Rubber', 'toast'),
     new card('Cancer', 'toast'),
-    new card('Plane', 'toast'),
-    new card('Pill', 'toast'),
-    new card('Ticket', 'toast'),
     new card('Tool', 'toast'),
-    new card('Hammer', 'toast'),
-    new card('Circle', 'toast'),
     new card('Needle', 'toast'),
     new card('Rag', 'toast'),
-    new card('Smoke', 'toast'),
-    new card('Referee', 'toast'),
-    new card('Sky', 'toast'),
-    new card('Ocean', 'toast'),
-    new card('Pepper', 'toast'),
     new card('Valve', 'toast'),
-    new card('Triangle', 'toast'),
     new card('Thermostat', 'toast'),
     new card('Tube', 'toast'),
-    new card('Octopus', 'toast'),
-    new card('Magnet', 'toast'),
-    new card('Spaghetti', 'toast'),
     new card('Disco', 'toast'),
     new card('Thumbtack', 'toast'),
     new card('Tie', 'toast'),
     new card('Sink', 'toast'),
     new card('Bifocals', 'toast'),
-    new card('Television', 'toast'),
-    new card('Jell-O', 'toast'),
-    new card('Eye', 'toast'),
+     new card('Jell-O', 'toast'),
     new card('Pot', 'toast'),
-    new card('Wedding', 'toast'),
-    new card('Ring', 'toast'),
-    new card('Wine', 'toast'),
     new card('Taxes', 'toast'),
-    new card('Pig', 'toast'),
     new card('Hoe', 'toast'),
     new card('Mouse', 'toast'),
     new card('Wok', 'toast'),
     new card('Gondola', 'toast'),
-    new card('Coconut', 'toast'),
     new card('Telephone', 'toast'),
     new card('Sleet', 'toast'),
     new card('Toll', 'toast'),
@@ -749,8 +712,8 @@ function getRandom(number) {
 }
 
 document.getElementById("draw").onclick = function(){
-    var index = getRandom(73);
+    var index = getRandom(107);
     var currentCard = deck[index];
 
-    document.getElementById("display").innerHTML = '<h3>' + currentCard.name + '</h3><img src="assets/' + currentCard.image + '.jpg" height=500 width=350>';
+    document.getElementById("display").innerHTML = '<h3>' + currentCard.name + '</h3><img src="assets/' + currentCard.image + '.jpg" height=400em width=300em>';
 };
