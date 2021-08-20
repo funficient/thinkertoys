@@ -28,8 +28,13 @@ var deck = [
     new card('Milk', 'milk'),    new card('Poster', 'poster'),    new card('Aisle', 'aisle'),    new card('Horse', 'horse'),    new card('Pipe', 'pipe'),
 
     new card('Eye', 'eye'),    new card('Television', 'television'),    new card('Wedding', 'wedding'),    new card('Ring', 'ring'),    new card('Wine', 'wine'),
-    new card('Pig', 'pig'),
-    new card('Coconut', 'coconut'),
+    new card('Pig', 'pig'),    new card('Coconut', 'coconut'),    new card('Sink', 'sink'),    new card('Mouse', 'mouse'),    new card('Wok', 'wok'),    
+    
+    new card('Gondola', 'gondola'),    new card('Telephone', 'telephone'),        new card('Sleet', 'sleet'),    new card('Toll', 'toll'),    new card('Notebook', 'notebook'),   
+    new card('File', 'file'),    new card('Clouds', 'clouds'),      new card('Chimney', 'chimney'),    new card('Sailboat', 'sailboat'),     new card('Mirrors', 'mirrors'),
+    
+    new card('Volcano', 'volcano'),    new card('Suitcase', 'suitcase'),   new card('Fish', 'fish'),     new card('Lamp', 'lamp'),    new card('Library', 'library'),
+    new card('University', 'university'),    new card('Barbecue', 'barbecue')    
 /*
 
     new card('Bruise', 'bruise'),
@@ -45,33 +50,17 @@ var deck = [
     new card('Disco', 'toast'),
     new card('Thumbtack', 'toast'),
     new card('Tie', 'toast'),
-    new card('Sink', 'toast'),
     new card('Bifocals', 'toast'),
      new card('Jell-O', 'toast'),
     new card('Pot', 'toast'),
     new card('Taxes', 'toast'),
     new card('Hoe', 'toast'),
-    new card('Mouse', 'toast'),
-    new card('Wok', 'toast'),
-    new card('Gondola', 'toast'),
-    new card('Telephone', 'toast'),
-    new card('Sleet', 'toast'),
-    new card('Toll', 'toast'),
-    new card('Notebook', 'toast'),
     new card('Dictionary', 'toast'),
-    new card('File', 'toast'),
     new card('Lobby', 'toast'),
-    new card('Clouds', 'toast'),
-    new card('Volcano', 'toast'),
-    new card('Suitcase', 'toast'),
-    new card('Fish', 'toast'),
-    new card('Lamp', 'toast'),
-    new card('Library', 'toast'),
-    new card('University', 'toast'),
     new card('Fulcrum', 'toast'),
-    new card('Barbecue', 'toast'),
+
     new card('Canister', 'toast'),
-    new card('Chimney', 'toast'),
+
     new card('Rotating spit', 'toast'),
     new card('Toxic waste', 'toast'),
     new card('Coffee', 'toast'),
@@ -83,8 +72,8 @@ var deck = [
     new card('Math', 'toast'),
     new card('War', 'toast'),
     new card('Brunch', 'toast'),
-    new card('Sailboat', 'toast'),
-    new card('Mirrors', 'toast'),
+
+
     new card('Burdock', 'toast'),
     new card('Sludge', 'toast'),
     new card('Wastebasket', 'toast'),
@@ -712,7 +701,7 @@ function getRandom(number) {
 }
 
 document.getElementById("draw").onclick = function(){
-    var index = getRandom(107);
+    var index = getRandom(127);
     var currentCard = deck[index];
 
     document.getElementById("display").innerHTML = '<h3>' + currentCard.name + '</h3><img src="assets/' + currentCard.image + '.jpg" height=400em width=300em>';
