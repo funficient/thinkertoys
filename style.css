@@ -272,7 +272,8 @@ margin-bottom: 2rem;
 }
 
 .sticky-icon-bar a {
-  display: block;
+  display: flex;
+	flex-direction: column;
   text-align: center;
   align-items: center;
   padding: 1rem; 
