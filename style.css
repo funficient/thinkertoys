@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
 
 :root {
   --primary: #444444;
@@ -81,25 +82,23 @@ h4 {
 
 p {
   font-family: 'Nunito Sans', sans-serif;
-  padding-bottom: 2rem;
+  padding-bottom: 1.5rem;
   font-size: 1.5rem;
-  color: #111b2b;
+  color: var(--primary);
   line-height: 1.4em;
   align-items: center;
   text-align: center;
 
 }
 
-ol {
-  font-family: 'Nunito Sans', sans-serif;
-  padding-bottom: 2rem;
-  font-size: 1.2rem;
-  color: #111b2b;
-  line-height: 1.6em;
-  align-items: left;
-  text-align: left;
 
-
+.footer-section p {
+  border-top: 1px solid rgb(199, 199, 199);
+  padding-top: 2rem;
+  margin-top: 5rem;
+  font-size: 0.8rem;
+  color: #6d6d6d;
+  
 }
 
 
@@ -152,14 +151,15 @@ ol {
   -2px -2px 12px rgba(255, 255, 255, 0.5),
   2px 2px 4px rgba(255, 255, 255, 0.1),
   2px 2px 8px rgba(0, 0, 0, 0.15);
-padding: 30px;
+padding: 2rem;
 border-radius: 12px;
-margin-bottom: 50px;
+margin-bottom: 2rem;
 
 }
 
 #display h3 {
   padding-bottom: 1rem;
+
 }
 
 
@@ -172,9 +172,9 @@ margin-bottom: 50px;
 .btn-def {
   display: inline-block;
   font-size: 1rem;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.1rem;
   padding: 1rem 3rem;
   border-radius: 0.5rem;
   text-decoration: none;
@@ -183,6 +183,7 @@ margin-bottom: 50px;
       inset 2px 2px 4px rgba(255, 255, 255, 0.1),
       2px 2px 8px rgba(0, 0, 0, 0.15);
   transition: .4s;
+  margin-bottom: 2rem;
 }
 
 .btn-def:hover,
@@ -213,6 +214,7 @@ margin-bottom: 50px;
   display: flex;
   justify-content: center;
   color: #292929;
+  margin-bottom: 1rem;
 }
 
 .product-btns a {
@@ -223,7 +225,7 @@ margin-bottom: 50px;
 .btn-small {
   display: inline-block;
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
   padding: 0.5rem 2rem;
   border-radius: 0.5rem;
@@ -236,25 +238,183 @@ margin-bottom: 50px;
 
 
 
-.btn-round {
-  display: inline-block;
-  font-size: 1rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  text-align: center;
-  height: 2em;
-  width: 45px;
-  line-height: 45px;
-  border-radius: 0.5rem;
+/*Social sidebar */
+
+
+.sticky-icon-bar {
+  position: fixed;
+  top: 50%;
+  right:0;
+ 
   box-shadow: -2px -2px 8px #fff,
-      -2px -2px 12px rgba(255, 255, 255, 0.5),
-      inset 2px 2px 4px rgba(255, 255, 255, 0.1),
-      2px 2px 8px rgba(0, 0, 0, 0.15);
-  transition: .4s;
+  -2px -2px 12px rgba(255, 255, 255, 0.5),
+  inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+  2px 2px 8px rgba(0, 0, 0, 0.15);
+
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+
+
+}
+
+.sticky-icon-bar:hover {
+  box-shadow: inset -2px -2px 8px #fff,
+  inset -2px -2px 12px rgba(255, 255, 255, 0.5),
+  inset 2px 2px 4px rgba(255, 255, 255, 0.1),
+  inset 2px 2px 8px rgba(0, 0, 0, 0.15);
+
+}
+
+.sticky-icon-bar a {
+  display: block;
+  text-align: center;
+  align-items: center;
+  padding: 1rem; 
+  color: grey;
+  font-size: 1.5rem;
+  background-color: #f7f7f7;
+}
+
+.sticky-icon-bar a:hover {
+  background-color: rgb(243, 243, 243);
+  border: none;
+  color:var(--tangerine);
+  box-shadow: inset -1px -1px 4px #fff,
+  inset -1px -1px 6px rgba(255, 255, 255, 0.5),
+  inset 1px 1px 2px rgba(255, 255, 255, 0.1),
+  inset 1px 1px 4px rgba(0, 0, 0, 0.15);
+
 }
 
 
 
+.fa::before {
+  color:grey)
+}
+
+
+
+.twitter {
+
+
+  .fa-twitter:hover {
+ 
+  color:var(--tangerine);
+
+}
+
+
+
+
+
+
+/* Social sidebar not used
+
+#social-sidebar {
+  left: 0;
+  position: fixed;
+  top: 40%;
+}
+
+#social-sidebar a {
+  background: rgba(236, 236, 236, 0.6);
+  color: var(--tangerine);
+  text-decoration: none;
+  display: block;
+  height: 50px;
+  width: 50px;
+  font-size: 2rem;
+  line-height: 1.7rem;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+}
+#social-sidebar a:hover span {
+  left: 120%;
+  opacity: 1;
+}
+#social-sidebar a span {
+  font-size: 1rem;
+  font-weight: 700;
+
+  text-transform: none;
+  border-radius: 3px;
+  line-height: 2rem;
+  left: -100%;
+  margin-top: -16px;
+  opacity: 0;
+  padding: 4px 8px;
+  position: absolute;
+  transition: opacity 0.3s, left 0.4s;
+  top: 50%;
+  z-index: -1;
+}
+#social-sidebar a span:before {
+  content: "";
+  display: block;
+  height: 8px;
+  width: 8px;
+  left: -4px;
+  margin-top: -4px;
+  position: absolute;
+  top: 50%;
+  transform: rotate(45deg);
+}
+#social-sidebar a[class*="twitter"]:hover, #social-sidebar a[class*="twitter"] span, #social-sidebar a[class*="twitter"] span:before {
+  background: rgb(150, 150, 150);
+}
+
+}
+/* Footer section */
+
+.social-media{
+	display: flex; 
+	justify-content: center;
+}
+
+a{
+	display: flex;
+	background: #e3edf7;
+	height: 4rem;
+	width: 4rem;
+	margin: 2rem 2rem;
+	border-radius: 8px;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+	box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+				-6px -6px 10px -1px rgba(255,255,255,0.7);
+	border: none;
+	transition: transform 0.5s;			
+}
+
+a i{
+	font-size: 35px;
+	color: #777;
+	transition: transform 0.5s;
+}
+
+a:hover{
+	box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+				inset -4px -4px 6px -1px rgba(255,255,255,0.7),
+				-0.5px -0.5px 0px rgba(255,255,255,1),
+				0.5px 0.5px 0px rgba(0,0,0,0.15),
+				0px 12px 10px -10px rgba(0,0,0,0.05);
+	border: none;
+
+	transform: translate(2px);
+}
+
+a:hover i{
+	transform: scale(0.90);
+}
+
+
+
+a:hover .fa-twitter{
+	color: #00acee;
+}
 
 
 
@@ -297,4 +457,4 @@ flex-direction: column;
     
    }
   
-
+*/
