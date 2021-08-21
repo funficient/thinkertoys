@@ -13,3 +13,6 @@ It can be used to provide a different perspective when you feel stuck on any pro
 2. Spend a few minutes thinking about the characteristics of the object or verb you pulled.  For example, a 'Bag' is something that is easy to carry, it holds a lot of items, and it is re-usable.  Don't draw another card if you can't think of any attributes or characteristics, even if you're tempted to.  Rather spend time looking for possible uses or interacting with the object to find something that is characteristic of this object.  The point is to help you think laterally, and moving to the next object might feel easier, but it is not practicing the creative mind muscle.  You will get more benefit from struggling to find one characteristic, than flip through 5 cards looking for the 'easy' answer.
 3. Now think of your problem and look for ways how you can hold more items, make it re-usable, or more portable.
 
+
+Read more [here](https://www.buymeacoffee.com/funficient/thinkertoys-random-input-tool-685057).
+
