@@ -34,11 +34,17 @@ var deck = [
     new card('File', 'file'),    new card('Clouds', 'clouds'),      new card('Chimney', 'chimney'),    new card('Sailboat', 'sailboat'),     new card('Mirrors', 'mirrors'),
     
     new card('Volcano', 'volcano'),    new card('Suitcase', 'suitcase'),   new card('Fish', 'fish'),     new card('Lamp', 'lamp'),    new card('Library', 'library'),
-    new card('University', 'university'),    new card('Barbecue', 'barbecue')    
+    new card('University', 'university'),    new card('Barbecue', 'barbecue'),         new card('Watch', 'watch'),    new card('Canister', 'canister'),    new card('Coffee', 'coffee'),    
+    
+    new card('Toxic waste', 'toxic_waste'),    new card('Ribcage', 'ribcage'),    new card('Math', 'math'),      new card('Brunch', 'brunch'),   new card('Flag', 'flag'),
+        
+
+
 /*
 
-    new card('Bruise', 'bruise'),
-    
+             new card('Parking lot', 'toast'), new card('War', 'toast'),  
+             
+    new card('Bruise', 'bruise'),    
     new card('Rubber', 'toast'),
     new card('Cancer', 'toast'),
     new card('Tool', 'toast'),
@@ -58,27 +64,14 @@ var deck = [
     new card('Dictionary', 'toast'),
     new card('Lobby', 'toast'),
     new card('Fulcrum', 'toast'),
-
-    new card('Canister', 'toast'),
-
     new card('Rotating spit', 'toast'),
-    new card('Toxic waste', 'toast'),
-    new card('Coffee', 'toast'),
     new card('Groundhog', 'toast'),
-    new card('Ribcage', 'toast'),
-    new card('Parking lot', 'toast'),
     new card('Lungs', 'toast'),
     new card('Speech', 'toast'),
-    new card('Math', 'toast'),
-    new card('War', 'toast'),
-    new card('Brunch', 'toast'),
-
-
     new card('Burdock', 'toast'),
     new card('Sludge', 'toast'),
     new card('Wastebasket', 'toast'),
-    new card('Watch', 'toast'),
-    new card('Flag', 'toast'),
+   
     new card('Helmet', 'toast'),
     new card('Eye', 'toast'),
     new card('Cactus', 'toast'),
@@ -701,7 +694,7 @@ function getRandom(number) {
 }
 
 document.getElementById("draw").onclick = function(){
-    var index = getRandom(127);
+    var index = getRandom(135);
     var currentCard = deck[index];
 
     document.getElementById("display").innerHTML = '<h3>' + currentCard.name + '</h3><img src="assets/' + currentCard.image + '.jpg" height=400em width=300em>';
