@@ -91,6 +91,15 @@ p {
 
 }
 
+a {
+	color: grey;
+	text-decoration: none;
+}
+
+a:hover {
+	 color:var(--tangerine);
+	}
+
 
 .footer-section p {
   border-top: 1px solid rgb(199, 199, 199);
